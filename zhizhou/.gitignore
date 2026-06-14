@@ -1,0 +1,35 @@
+# --- Go (Server) ---
+server/bin/
+server/tmp/
+server/.env
+server/config.local.json
+*.exe
+*.test
+*.out
+
+# --- React (Web) ---
+web/node_modules/
+web/dist/
+web/build/
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+
+# --- Deployment & Environment ---
+.env
+.DS_Store
+*.log
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+deploy/data/
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Dependencies ---
+**/vendor/
